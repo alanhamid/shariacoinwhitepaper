@@ -5,7 +5,7 @@
 html,
 body {
     font-family: 'Tajawal', sans-serif;
-    background: linear-gradient(120deg, #1a2a6c, #b21f1f, #fdbb2d);
+    background: white;
     /* Same gradient as Tokenomics */
     color: #fff;
     margin: 0;
