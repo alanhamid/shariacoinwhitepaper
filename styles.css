@@ -1,90 +1,40 @@
-/* styles.css */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #FAF4EB; /* Earth tone background */
-    color: #4D4B48; /* Neutral text color */
+    background-color: #F9F5EE; /* Very soft neutral background */
+    color: #5C5346; /* Earthy brown for readability */
 }
 
-.container {
-    width: 90%;
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-header {
-    background-color: #D2B48C; /* Sand/desert color */
-    padding: 20px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+header, footer {
+    background-color: #E3D0B2; /* Warm sandy tone */
 }
 
 .logo {
-    height: 50px;
+    color: #01796F; /* Islamic traditional green */
+    font-weight: bold;
 }
 
 nav a {
-    color: #4D4B48;
-    text-decoration: none;
-    font-weight: bold;
+    color: #5C5346; /* Earthy brown text */
 }
 
 nav a:hover {
-    color: #000;
+    color: #01796F; /* Green on hover for accentuation */
 }
 
 .hero {
-    padding: 80px 0;
-    text-align: center;
-    background-color: #E8D5B5; /* Lighter desert color */
+    background-color: #EFE6D8; /* Slightly darker desert tone to complement green text */
 }
 
 .hero h1 {
-    font-size: 50px;
-    margin-bottom: 10px;
-}
-
-.hero h2 {
-    font-size: 24px;
-    margin-bottom: 5px;
-}
-
-.hero .tagline {
-    font-size: 18px;
-    margin-top: 20px;
-}
-
-.about {
-    padding: 50px 0;
-    text-align: center;
+    color: #01796F; /* Islamic green */
 }
 
 .about a {
-    color: #4D4B48;
-    font-weight: bold;
-    text-decoration: underline;
+    color: #01796F; /* Islamic green links */
 }
 
 .about a:hover {
-    color: #000;
-}
-
-footer {
-    background-color: #D2B48C;
-    padding: 15px 0;
-    text-align: center;
-    font-size: 14px;
-    margin-top: 40px;
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-    .hero h1 {
-        font-size: 32px;
-    }
-    .hero h2, .hero .tagline {
-        font-size: 16px;
-    }
+    color: #004E48; /* Darker green for hover */
 }
